@@ -1,0 +1,14 @@
+Ho affrontato l'esercizio leggendo approfonditamente la richiesta.
+Ho avuto modo di scoprire e approfondire alcune delle api del sito developers.fabrick.
+Ho creato tramite IDE Eclipse uno Spring Starter Project, con le seguenti dipendenze:
+1 Spring boot dev tools 
+2 Spring Data JPA
+3 MySQL Driver 
+4 Spring Web 
+5 Thymeleaf framework
+Ho creato il package model dove ho inserito diverse classi contenenti le variabili trovate nella documentazione delle Api.
+Ho provato a fare delle chiamate su Postman con le rotte fornite per ottenere le risposte. Sono riuscito, aggiungendo nell'header le coppie chiave valore inserite nel testo dell'esercizio, ad ottenere la risposta contenente il saldo. Ho quindi provato a implementare la funzione tramite il progetto.
+Ho creato una entità Balance con i campi contenuti nella risposta e ho implementato una interfaccia che estende JpaRepository. 
+Ho creato una interfaccia con le firme dei tre metodi richiesti. Ho poi fatto il Service che implementa l'interfaccia. Ho provato a scrivere il metodo getSaldo utilizzando metodi ereditati da JPA repository.
+Ho creato un rest controller dove ho provato a creare un metodo che con get andasse a fare una chiamata all'url, inserendo dei @RequestHeader per aggiungere le variabili richieste.
+Purtroppo non sono a conoscenza dei metodi per integrare delle api di terze parti alla mia applicazione. 
